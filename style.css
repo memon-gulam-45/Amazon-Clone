@@ -168,9 +168,7 @@ span {
 /*Hero Section*/
 .hero-section {
   height: 600px;
-  width: 1415px;
-  position: relative;
-  right: 95px;
+  width: 100%;
   background-image: url("Images/hero.jpg");
   background-size: cover;
   display: flex;
@@ -287,8 +285,9 @@ span {
   align-items: center;
 }
 .full {
-  width: 1280px;
+  width: 96%;
   height: 260px;
+  padding-bottom: 10px;
   background-color: #ffffff;
   position: relative;
   top: 160px;
@@ -423,7 +422,7 @@ span {
 
 .foot-last {
   background-color: #131a22;
-  height: 100px;
+  height: 150px;
 }
 .foot-lines {
   display: flex;
@@ -441,10 +440,15 @@ span {
 }
 .foot-copyright {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: 500;
   font-size: 0.7rem;
   color: #dddddd;
   margin-bottom: 30px;
+}
+.foot-copyright .author {
+  font-weight: 700;
+  margin-top: 20px;
 }
